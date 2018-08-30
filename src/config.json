@@ -1,0 +1,8 @@
+{
+  "httpEndpoint": "http://ca-rpc.fibos.io:8870",
+  "fibosAccount": "fibos 账户名",
+  "fibosPubkey": "fibos 公钥",
+  "fibosPriKey": "fibos 私钥",
+  "eosAccount": "eos 账户",
+  "eosPriKey": "eos 私钥"
+}
