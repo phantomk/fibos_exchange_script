@@ -58,4 +58,5 @@ fibos exFoToEos.js
 fibos transferFibosToEos.js
 ```
 
-
+## License
+[Apache-2.0](LICENSE)
