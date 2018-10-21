@@ -2,7 +2,6 @@
 - 本脚本在 MAC OS 下测试通过
 - 创建账户有调用频度限制（根据 ip），一小时一次，可以使用代理，切换 ip 后重试
 - eos 跨链转账到 fibos 大概需要 2～3 分钟
-- 提现 eos 到 eos 主链，暂时貌似是无法即时到账的
 - fibos 网络暂不稳定，注意风险
 
 ### 安装 FIBOS
@@ -32,7 +31,7 @@ fibos generateKey.js
 fibos createAccount.js
 ```
 
-### 跨链转账，从 EOS 到 FIBOS
+### 跨链转账，从 EOS 到 FIBOS
 将 eos 的账户名和私钥分别填入 `config.json` 的 eosAccount 和 eosPriKey，修改 transferEosToFibos.js 中的 VALUE
 
 ```bash
@@ -52,7 +51,7 @@ fibos exEosToFo.js
 fibos exFoToEos.js
 ```
 
-### 跨链转账，从 FIBOS 到 EOS
+### 跨链转账，从 FIBOS 到 EOS
 
 ```bash
 fibos transferFibosToEos.js
